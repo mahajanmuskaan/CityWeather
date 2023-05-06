@@ -15,9 +15,13 @@ body {
     color: white;
     font-family: 'Satisfy', cursive;
 }
+.search-section{
+    max-width:600px;
+}
 
 .city-section {
-    width: 450px;
+    max-width: 500px;
+    margin: auto;
     border-radius: 10px;
     font-size: 1rem;
     font-weight: bold;
