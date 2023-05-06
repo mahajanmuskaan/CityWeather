@@ -13,7 +13,7 @@ button.addEventListener("click", () => {
 async function fetchApiData(APIkey, location) {
     try {
         // Fetching response from Public API
-        const response = await fetch(`http://api.weatherapi.com/v1/current.json?key=${APIkey}&q=${location}`, {
+        const response = await fetch(`https://api.weatherapi.com/v1/current.json?key=${APIkey}&q=${location}`, {
             method: "GET",
             headers: {
                 Accept: "application/json",
