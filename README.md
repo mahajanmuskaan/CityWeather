@@ -1,30 +1,31 @@
+# Check City Weather
 
-# City Weather
+This project displays the weather information of a specific city. It uses the Public API provided by [Weather API](https://www.weatherapi.com/). The user can enter the city name and click the search button to see the weather information. The weather information displayed includes temperature in Celsius and Fahrenheit, humidity, wind speed, pressure, weather condition, and weather condition icon.
 
+## Getting Started
 
-## Introduction
-The website is a simple weather app that displays the weather information of a city when a user enters its name. The app uses the Weather API to retrieve the weather data and display it on the screen. 
+To run the project on your local machine, follow these steps:
 
+1. Clone the repository to your local machine.
+2. Open the `index.html` file in your browser.
+3. Enter the name of the city in the search box.
+4. Click the "Search" button to see the weather information.
 
-### HTML File Section
-The HTML code has three main sections, which are 
-  1. Top section, 
-  2. Search section, and 
-  3. City section. 
+## Prerequisites
 
-#### Top Section
-The top section displays a message to prompt the user to enter a city name to check the weather. 
+- A modern web browser like Chrome, Firefox, Safari, etc.
 
-#### Search Section
-The search section contains an input field and a submit button to enter the city name. 
+## Built With
 
-#### City Section
-Finally, the city section displays the weather information of the entered city, including the city name, weather condition, temperature in Celsius and Fahrenheit, humidity, wind speed, and pressure. 
+- HTML
+- CSS
+- JavaScript
 
-### CSS File Section
-The CSS code has various styles for the body, top section, search section, and city section. It also defines the background image and position for the website.
+The project also uses the following libraries:
 
-### Javascript File Section
+- [Bootstrap 5](https://getbootstrap.com/) - For styling the HTML elements
+- [Weather API](https://www.weatherapi.com/) - For fetching the weather data
 
-The JavaScript code handles the fetching of weather data from the Weather API and updates the city section with the retrieved data. It defines two constants: the Weather API URL and the API key. It also defines a fetchWeatherData() function that accepts the API key and city name as parameters and returns the weather data for the specified city. The function then updates the city section with the retrieved weather data. 
+## Authors
 
+- **[Muskaan]** - [https://github.com/mahajanmuskaan]
